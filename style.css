@@ -13,7 +13,7 @@ body {
 .about img {
   width: 100%;
 }
-.about .more-inf {
+.about .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 ul {
@@ -127,7 +127,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through
   color: #888;
 }
